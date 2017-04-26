@@ -1,0 +1,23 @@
+---
+title : "New Html test"
+
+--
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+		<h2> Hi there </h2>
+		<p> This is my first page </p>
+		<ul>
+			<li><a href="{{site.url}}/index.html">Home</a>
+			</li>
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ post.ulr}}">{{ pist.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
