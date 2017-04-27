@@ -8,16 +8,19 @@ layout: default
 	</head>
 
 	<body>
+		<table>
+			<tr>
+				<td><a href="{{site.url}}" class="btn">Home</a>
+				</td>
+				
+				{% for post in site.posts %}
+				<td>
+					<a href="{{ post.url}}" class="btn">{{post.title}}</a>
+				</td>
+			</tr>
+		</table>
+		
 		<h2> Hi there </h2>
 		<p> This is my first page </p>
-		<ul>
-			<li><a href="{{site.url}}/index.html" class="btn">Home</a>
-			</li>
-			{% for post in site.posts %}
-			<li>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
 	</body>
 </html>
