@@ -9,8 +9,8 @@
 
 
 | --->       | Work Experience |
-| ------------- |:-------------|
-|*Nov 2015 - April 2016*| **Cisco Romania Internship** – This was a part-time job that kept me close to Cisco’s Pre-sales department. During my stay I had the opportunity to become familiar with various Cisco services and solutions and interact with experts from different fields including Data Center, Wireless and Security. My job responsibilities included the following: +Manage the Bucharest Demo Device Storage and Demo Lab +Keep digital records of demo devices in the Bucharest Office +Basic configuration of demo projects, on the client’s premises or in office +Small Java/Bash apps that improved daily workflow |
+| -------------- |:-------------|
+|*Nov 2015 - April 2016*| **Cisco Romania Internship** – This was a part-time job that kept me close to Cisco’s Pre-sales department. During my stay I had the opportunity to become familiar with various Cisco services and solutions and interact with experts from different fields including Data Center, Wireless and Security. My job responsibilities included the following: +Manage the Bucharest Demo Device Storage and Demo Lab + Keep digital records of demo devices in the Bucharest Office + Basic configuration of demo projects, on the client’s premises or in office + Small Java/Bash apps that improved daily workflow |
 
 
 
