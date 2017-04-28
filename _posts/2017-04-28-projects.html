@@ -2,5 +2,20 @@
 title: "Projects"
 layout: default
 ---
+title: "Certifications"
+layout: default
+---
 <html>
+	<head>
+	</head>
+
+	<body>
+		<div class="flex-container">
+  			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+  			{% for post in site.posts%}
+  			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
+  			{% endfor %}
+		</div>
+
+	</body>
 </html>
