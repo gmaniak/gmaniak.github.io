@@ -7,11 +7,59 @@ layout: default
 	</head>
 
 	<body>
+
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
+		</div>
+
+		<!-- Actual content -->
+		<div class="table-container">
+
+			<div class="table-row">
+				<div class="table-date"><p>Oct 2015<br>Present</p></div>
+				<div class="table-article"><p><b>Junior Cisco Instructor</b> - Teaching CCNA and helping in the organization of different social events at the Cisco Networking Academy within the University “Politehnica” of Bucharest</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>2014<br>Present</p></div>
+				<div class="table-article"><p><b>Network design and implementation</b> – Managing and continuously improving 
+				the infrastructure and implementation of a small business demo network. This
+				task has put me in contact with various technologies like site-to-site VPN,
+				firewalls, DDNS, multicast traffic and many others. The purpose of this project is
+				to have a low-maintenance, high-availability and very well documented network.</p></div>
+			</div>
+
+
+			<div class="table-row">
+				<div class="table-date"><p>2014</p></div>
+				<div class="table-article"><p><b>Quine Mccluskey algorithm</b> - Boolean simplification algorithm, implemented using C++. This is a well-known algorithm used in circuit design.</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>June 2013<br>Aug 2013</p></div>
+				<div class="table-article"><p><b>Microsoft Summer School</b> - Two-month internship at Microsoft Romania. In
+				this project I enhanced my soft skills and developed a C# project for Windows 8,
+				“Pizza-Delivery” which tried the unification of all pizza delivery services in one city.</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>2013</p></div>
+				<div class="table-article"><p><b>File Management application</b> - Moves files in specific folders based on their 
+				creation date. Implementation made in C++. This application, “Clean-Time” maintained files organized in a certain way.</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>Jan 2009<br>April 2009</p></div>
+				<div class="table-article"><p><b>Poker Application</b> - Implemented using HTML, CSS and JavaScript. This is a single player, online poker game. <br><a href="http://poker.respiratiaconstienta.ro/">Poker app</a></p></div>
+			</div>
+
 		</div>
 
 	</body>
