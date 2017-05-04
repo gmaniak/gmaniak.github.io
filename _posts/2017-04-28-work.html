@@ -8,12 +8,36 @@ layout: default
 	</head>
 
 	<body>
+
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
 		</div>
+
+		<!-- Actual content -->
+		<div class="table-container">
+
+			<div class="table-row">
+				<div class="table-date"><p>Nov 2015<br>April 2016</p></div>
+				<div class="table-article"><p><b>Cisco Romania Internship </b> – This was a part-time job that kept me close to 
+				Cisco’s Pre-sales department. During my stay I had the opportunity to become
+				familiar with various Cisco services and solutions and interact with experts from
+				different fields including Data Center, Wireless and Security.
+				My job responsibilities included the following:
+				<ul>
+				<li>Manage the Bucharest Demo Device Storage and Demo Lab</li>
+				<li>Keep digital records of demo devices in the Bucharest Office</li>
+				<li>Basic configuration of demo projects, on the client’s premises or in office</li>
+				<li>Small Java/Bash apps that improved daily workflow</li>
+				</ul>
+				</p></div>
+			</div>
 
 	</body>
 </html>
