@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
  
+ /*Container for navigation menu*/
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -11,22 +12,32 @@
     justify-content: space-between;
 }
 
+/*Item for flex menu*/
 .flex-item {
     margin: 5px;
 }
 
-.table{
+/*Table container*/
+.table-container{
 	display: flex;
 	width:100%;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap:wrap;
 }
 
-.table-article{
-	float:right;
-	margin:3px;
+/*Table row container*/
+.table-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
+/*Table article content*/
+.table-article{
+	margin:5px;
+}
+
+/*Table date content*/
 .table-date{
-	float:left;
+	margin:5px;
 }

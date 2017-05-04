@@ -7,20 +7,33 @@ layout: default
 	</head>
 
 	<body>
+
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
 		</div>
 
-		
-		<div class="table-date"><p>2014<br>Present</p></div>
-		<div class="table-article"><p><b>2nd year Bachelor in Computer Science student </b> - The Faculty of Automatic Control and Computers Science, University “Politehnica” of Bucharest, Expected graduation: 2019.</p></div>
-		
-		<div class="table-data"><p>Sept 2010<br>June 2014</p></div>
-		<div class="table-article"><p><b>High School Diploma</b> - Tudor Vianu National College of Computer Science, GPA: 9,15 out of 10.</p></div>
+		<!-- Actual content -->
+		<div class="table-container">
 
+			<div class="table-row">
+				<div class="table-date"><p>2014<br>Present</p></div>
+				<div class="table-article"><p><b>2nd year Bachelor in Computer Science student </b> - The Faculty of Automatic Control and Computers Science, University “Politehnica” of Bucharest, Expected graduation: 2019.</p></div>
+			</div>
+			
+			<div class="table-row">
+				<div class="table-data"><p>Sept 2010<br>June 2014</p></div>
+				<div class="table-article"><p><b>High School Diploma</b> - Tudor Vianu National College of Computer Science, GPA: 9,15 out of 10.</p></div>
+			</div>
+		
+		</div>
+	
 	</body>
 </html>
 
