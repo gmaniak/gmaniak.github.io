@@ -7,12 +7,55 @@ layout: default
 	</head>
 
 	<body>
+
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
 		</div>
 
+		<!-- Actual content -->
+		<div class="table-container">
+
+			<div class="table-row">
+				<div class="table-date"><p>Nov 2013<br>Jan 2014</p></div>
+				<div class="table-article"><p><b>Children camp supervisor</b> - I participated in two winter sport camps where I
+				supervised and trained children to improve their snowboarding skills. This was a volunteering act.</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>2009<br>2012</p></div>
+				<div class="table-article"><p><b>Certified recreational diver</b>- I have around 40 active dives. My certifications
+				include: PADI Open Water Diver, PADI Advanced Open Water Diver, Enriched Air Nitrox Diver</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-article"><h2>Hobbies</h2></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-article">
+					<ul>
+					<li>Snowboarding</li>
+					<li>Rereational Diver</li>
+					<li>Driving</li>
+					</ul>
+				</div>
+
+				<div class="table-article">
+					<ul>
+					<li>Cycling</li>
+					<li>Basketball</li>
+					<li>Running</li>
+					</ul>
+				</div>		
+			
+			</div>
+		</div>
 	</body>
 </html>
