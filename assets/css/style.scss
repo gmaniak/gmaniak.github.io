@@ -33,18 +33,19 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items:center;
+	justify-content: space-between;
 }
 
 /*Table article content*/
 .table-article{
 	margin:10px;
-	flex:9;
+	flex:8;
 }
 
 /*Table date content*/
 .table-date{
-	margin:10px;
-	flex:1;
+	margin:3px;
+	flex:2;
 	color: #666;
 	align-content: left;
 }
