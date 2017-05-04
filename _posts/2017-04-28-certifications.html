@@ -7,12 +7,36 @@ layout: default
 	</head>
 
 	<body>
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
 		</div>
+
+		<!-- Actual content -->
+		<div class="table-container">
+
+			<div class="table-row">
+				<div class="table-date"><p>Sept 2013<br>Jan 2018</p></div>
+				<div class="table-article"><p><b>Cisco Certified Network Associate (CCNA)</b> - This certification guarantees my skills in implementing and managing switched and routed networks.</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>Sept 2013<br>May 2014</p></div>
+				<div class="table-article"><p><b>Introduction to Oracle databases</b>- High school program regarding basic functionality of MySQL databases</p></div>
+			</div>
+
+			<div class="table-row">
+				<div class="table-date"><p>Sept 2008<br>April 2009</p></div>
+				<div class="table-article"><p><b>Web Development course</b>- one-year course regarding the following technologies: HTML, CSS, JavaScript, and Joomla.</p></div>
+			</div>
+
+		</div>		
 
 	</body>
 </html>
