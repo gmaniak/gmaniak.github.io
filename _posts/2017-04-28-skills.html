@@ -8,11 +8,26 @@ layout: default
 	</head>
 
 	<body>
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
+		</div>
+
+		<div class="table-container">
+			<div class="table-article"><h2>Computer Skills</h2></div>
+			<div class="table-article"><p><b>Experienceed:</b> C, Java, Networking, Linux.</p></div>
+			<div class="table-article"><p><b>Medium:</b> Matlab, C++.</p></div>
+			<div class="table-article"><p><b>Basic</b>Python, Bash scripting, HTML, CSS, Javascript, C#</p></div>
+			<div class="table-article"><h2>Languages</h2></div>
+			<div class="table-article"><p><b>Advanced</b> English B2</p></div>
+			<div class="table-article"><p><b>Beginner</b> German.</p></div>
+			<div class="table-article"><p><b>Native</b> Romanian</p></div>
 		</div>
 
 	</body>
