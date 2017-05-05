@@ -7,11 +7,29 @@ layout: default
 	</head>
 
 	<body>
+		<!-- Navigation Menu -->
 		<div class="flex-container">
+			<!-- Home button -->
   			<div class="flex-item"><a href="{{site.url}}" class="btn">Home</a></div>
+
+  			<!-- Link to posts -->
   			{% for post in site.posts%}
   			<div class="flex-item"><a href="{{post.url}}" class="btn">{{post.title}}</a></div>
   			{% endfor %}
+		</div>
+
+		<div class="table-container">
+			<div class="table-row">\
+				<div class="table-article"><p>You can contact me through various services. Choose one from below</p></div>
+			</div>
+			<div class="table-row">
+				<div class="table-row">
+					<a href="" class="btn"><span class="icon"></span>Facebook</a>
+					<a href="" class="btn"><span class="icon"></span>Linkedin</a>
+					<a href="" class="btn"><span class="icon"></span>Email</a>
+					<a href="" class="btn"><span class="icon"></span>Call</a>
+				</div>
+			</div>
 		</div>
 
 	</body>
